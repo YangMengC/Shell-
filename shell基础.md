@@ -64,7 +64,7 @@ unset name
    #单引号不可以的双引号都可以
    ```
 
-   ![image-20211007153527966](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007153527966-16336896712521.png)
+   ![image-20211007153527966](shell基础.assets/image-20211007153527966-16336896712521.png)
 
 3. 拼接字符串
 
