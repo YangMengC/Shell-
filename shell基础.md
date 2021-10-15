@@ -64,13 +64,13 @@ unset name
    #单引号不可以的双引号都可以
    ```
 
-   ![image-20211007153527966](shell基础.assets/image-20211007153527966-16336896712521.png)
+   ![image-20211007153527966](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007153527966-16336896712521.png)
 
 3. 拼接字符串
 
    中间不需要任何类似于+的字符，直接在字符串后面接上要拼接的字符串即可，不过，直接接上是没有空格的
 
-   ![image-20211007154241854](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007154241854.png)
+   ![image-20211007154241854](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007154241854.png)
 
 4. 获取字符串长度
 
@@ -80,7 +80,7 @@ unset name
    echo ${#name}
    ```
 
-   ![image-20211007155853038](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007155853038.png)
+   ![image-20211007155853038](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007155853038.png)
 
 5. 提取字符串
 
@@ -89,7 +89,7 @@ unset name
 echo ${name:1:2}  #"es"
 ```
 
-![image-20211007160120516](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007160120516.png)
+![image-20211007160120516](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007160120516.png)
 
 
 
@@ -139,7 +139,7 @@ echo ${name:1:2}  #"es"
 
 ### 5. 参数传递
 
-![image-20211007162909087](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007162909087.png)
+![image-20211007162909087](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007162909087.png)
 
 ## 2.运算符
 
@@ -151,11 +151,11 @@ echo ${name:1:2}  #"es"
 >
 > 换句话说，Bash shell 在默认情况下不会区分变量类型，即使你将整数和小数赋值给变量，它们也会被视为字符串，这一点和大部分的编程语言不同。
 
-![image-20211007163651843](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007163651843.png)
+![image-20211007163651843](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007163651843.png)
 
-![image-20211007163548661](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007163548661.png)
+![image-20211007163548661](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007163548661.png)
 
-![image-20211007163916479](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007163916479.png)
+![image-20211007163916479](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007163916479.png)
 
 ```shell
 # var=`echo "option1;option2;...;expression"|bc`
@@ -177,23 +177,23 @@ echo $value
 
 > 关系运算符只支持数字，不支持字符串，除非字符串的值是数字
 
-![image-20211007170325457](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007170325457.png)
+![image-20211007170325457](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007170325457.png)
 
 ### 3. 字符串运算符
 
-![image-20211007170711181](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007170711181.png)
+![image-20211007170711181](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007170711181.png)
 
 ### 4. 布尔运算符
 
-![image-20211007170829291](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007170829291.png)
+![image-20211007170829291](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007170829291.png)
 
 ### 5. 逻辑运算符
 
-![image-20211007170843151](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007170843151.png)
+![image-20211007170843151](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007170843151.png)
 
 ### 6. 文件运算符
 
-![image-20211007170859702](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211007170859702.png)
+![image-20211007170859702](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211007170859702.png)
 
 ## 3. 输出
 
@@ -224,7 +224,7 @@ echo $value
   # %-4.2f ：指格式化为小数，宽度为 4 个字符，其中.2指保留 2 位小数。
   ```
 
-  ![image-20211008185011963](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211008185011963.png)
+  ![image-20211008185011963](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211008185011963.png)
 
 - 格式替代符：
 
@@ -430,7 +430,7 @@ printf  "\033[33m WARNING: hmm \033[0m\n";
 printf  "\033[31m ERROR: fubar \033[0m\n";
 ```
 
-![image-20211013180413159](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211013180413159.png)
+![image-20211013180413159](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211013180413159.png)
 
 ## 7.长句换行
 
@@ -445,5 +445,5 @@ printf  "\033[31m ERROR: fubar \033[0m\n";
 - 执行调试脚本-x：
   - bash -x test.sh
 
-![image-20211013181530228](/home/yly/Documents/MD Files/Linux/shell基础/shell基础.assets/image-20211013181530228.png)
+![image-20211013181530228](https://github.com/YangMengC/Shell-/blob/main/shell基础.assets/image-20211013181530228.png)
 
